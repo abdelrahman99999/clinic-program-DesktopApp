@@ -33,7 +33,6 @@ public class Main extends Application {
         Manger m1 = new Manger("ahmed", 40, "123", "bla bla bla", 10000);
 
         window = primaryStage;
-        window.setResizable(false);
         window.setTitle("Clinic program");
         window.getIcons().add(new Image("https://simg.nicepng.com/png/small/457-4579873_mobile-clinic-health-icons.png"));
 
