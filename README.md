@@ -1,5 +1,5 @@
 # clinic program-JavaFx
-![image from program](https://drive.google.com/file/d/1u1D14VcZ4x0SrWLhI1-fjiWAH-jRJk_A/view?usp=sharing)
+![image from program](https://github.com/abdelrahman99999/clinic-program-DesktopApp/blob/main/image.png)
 - oop
 - lambda expressions
 - events and handlers
