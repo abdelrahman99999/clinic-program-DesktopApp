@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Controller implements Initializable {
 
+    //this function will be executed at the begining of the program
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         try {
