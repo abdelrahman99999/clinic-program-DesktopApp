@@ -5,7 +5,7 @@ public class Doctor extends Person{
     private String Day_of_clinic;
     public static int no_doctors;
 
-    public Doctor(String name, int age, String address, String specialization, String day_of_clinic) {
+    public Doctor(String name, String age, String address, String specialization, String day_of_clinic) {
         super(name, age, address);
         Specialization = specialization;
         Day_of_clinic = day_of_clinic;
@@ -13,7 +13,7 @@ public class Doctor extends Person{
     }
 
     public Doctor() {
-        this("Unknown",30,"unknown","Unknown","Unknown");
+        this("Unknown","30","unknown","Unknown","Unknown");
     }
 
     public String getSpecialization() {
@@ -34,5 +34,8 @@ public class Doctor extends Person{
 
     public static int getNo_doctors() {
         return no_doctors;
+    }
+    public static int setNo_doctors(int n) {
+        return no_doctors=n;
     }
 }

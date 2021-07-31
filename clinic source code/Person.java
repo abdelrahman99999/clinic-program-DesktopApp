@@ -2,18 +2,18 @@ package sample;
 
 public class Person{
     private String name;
-    private int age;
+    private String age;
     private String address;
 
 
-    public Person(String name, int age, String address) {
+    public Person(String name, String age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
     }
 
     public Person(){
-        this("name is Unknown",30,"address is unknown");
+        this("name is Unknown","30","address is unknown");
     }
 
     public final String getName() {
@@ -24,11 +24,11 @@ public class Person{
         this.name = name;
     }
 
-    public final int getAge() {
+    public final String getAge() {
         return age;
     }
 
-    public final void setAge(int age) {
+    public final void setAge(String age) {
         this.age = age;
     }
 
