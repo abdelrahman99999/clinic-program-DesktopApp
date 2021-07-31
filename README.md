@@ -6,4 +6,4 @@
 - events and handlers
 - GUI
 
-youtube vide link: https://youtu.be/-Q8Jx6niulo
+youtube vide link: https://www.youtube.com/watch?v=ZKMP1D6_ghI
