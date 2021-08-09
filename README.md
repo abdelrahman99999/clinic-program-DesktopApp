@@ -5,5 +5,6 @@
 - lambda expressions
 - events and handlers
 - GUI
+- Read/Write files
 
 youtube vide link: https://www.youtube.com/watch?v=ZKMP1D6_ghI
